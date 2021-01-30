@@ -1,0 +1,95 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+#section1 {
+    display: flex;
+    background:rgb(255, 187, 0) ;
+    padding:5%;
+}
+
+#section1 div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#section1 p {
+    text-align: left;
+    color: black;
+    width: 50%;
+    font-size:50px;
+    margin-right:10%;
+    font-weight: bold;
+}
+
+#section1 p:hover {
+    color: white;
+}
+
+#section1 img {
+    width: 500px;
+}
+
+#section2 {
+    display: flex;
+    background: rgb(0, 119, 255);
+    padding: 5%;
+}
+
+#section2 div {
+    align-items: center;
+    display:inline ;
+    justify-content: center;
+
+}
+
+#section2 p {
+    float: right;
+    text-align: left;
+    color:black;
+    width: 50%;
+    font-size: 50px;
+    margin-right:4%;
+    font-weight: bold;
+}
+
+#section2 p:hover {
+    color: white;
+}
+
+#section2 img {
+    margin-left: 6%;
+    width: 500px;
+}
+
+#link {
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#link a {
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 4px;
+    font-size:30px;
+    cursor: pointer;
+    padding: 20px 50px;
+    color: white;
+    background:rgb(245, 193, 50);
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
+
+#link a:hover {
+    background: transparent;
+    color:rgb(255, 187, 0);
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
